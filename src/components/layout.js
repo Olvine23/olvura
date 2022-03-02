@@ -29,7 +29,7 @@ const Layout = ({pageTitle, children}) => {
          <div>
       <title>{pageTitle} | {data.site.siteMetadata.title}</title>
       <Nav />
-      <Content />
+      
       
       <main>
         <h1 className='text-red-500 text-2xl'>{pageTitle}</h1>

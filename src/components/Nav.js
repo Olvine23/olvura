@@ -61,18 +61,18 @@ export const Nav = ({pageTitle}) => {
                   title="Our product"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
-                  Product
+                  Home
                 </a>
               </li>
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="/blog"
                   aria-label="Our product"
                   title="Our product"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
-                  Features
-                </a>
+                  Blog
+                </Link>
               </li>
               <li>
                 <a
@@ -130,7 +130,7 @@ export const Nav = ({pageTitle}) => {
                 </svg>
               </button>
               {isMenuOpen && (
-                <div class="absolute top-0 left-0 w-full">
+                <div class="absolute z-10 top-0 left-0 w-full">
                   <div class="p-5 bg-white border rounded shadow-sm">
                     <div class="flex items-center justify-between mb-4">
                       <div>

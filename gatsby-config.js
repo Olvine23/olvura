@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
 
-        title: 'Olvine',
+        title: 'Olvura',
         siteUrl: `https://www.yourdomain.tld`,
     },
     plugins: [
@@ -9,6 +9,13 @@ module.exports = {
         'gatsby-plugin-postcss',
         "gatsby-plugin-image",
         "gatsby-plugin-sharp",
+        {
+            resolve: "gatsby-source-filesystem",
+            options: {
+              name: `blog`,
+              path: `${__dirname}/blog`,
+            }
+          },
 
     ]
 }
