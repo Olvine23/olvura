@@ -185,18 +185,18 @@ export const Nav = ({pageTitle}) => {
                             title="Our product"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            Product
+                            Home
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="/"
+                          <Link
+                            to="/blog"
                             aria-label="Our product"
                             title="Our product"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            Features
-                          </a>
+                            Blog
+                          </Link>
                         </li>
                         <li>
                           <a

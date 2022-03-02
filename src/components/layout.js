@@ -27,7 +27,7 @@ const Layout = ({pageTitle, children}) => {
   return (
     <div> 
          <div>
-      <title>{pageTitle} | {data.site.siteMetadata.title}</title>
+      <title>OLVINE | {data.site.siteMetadata.title}</title>
       <Nav />
       
       
