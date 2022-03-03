@@ -9,15 +9,15 @@ const BlogPost = ({data}) => {
   return (
     <Layout>
       <div className="text-center p-6 w-100  mx-auto"> 
-      <h1 class= "text-3xl font-bold">{data.mdx.frontmatter.title}</h1>
-      <p class="text-center" >{data.mdx.frontmatter.date}</p>
+      <h1 className= "text-3xl font-bold">{data.mdx.frontmatter.title}</h1>
+      <p className="text-center" >{data.mdx.frontmatter.date}</p>
       <GatsbyImage
-      className="h-80 mb-10"
+     className="image h-80 sm:w-full mb-10"
       image={image}
-      alt={data.mdx.frontmatter.hero_image_alt}
-    />
-    <p class="text-center" >Article by <span class="font-bold"> {data.mdx.frontmatter.author} </span></p>
-      <div  class="leading-8 post w-100  b-red-500">
+      alt= "Hero image"
+ Name   />
+    <p className="text-center" >Article by <span class="font-bold"> {data.mdx.frontmatter.author} </span></p>
+      <div  className="leading-8 w-80 post sm:w-full  b-red-500">
       <MDXRenderer  >
         {data.mdx.body}
       </MDXRenderer>
