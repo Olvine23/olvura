@@ -32,7 +32,7 @@ const Layout = ({pageTitle, children}) => {
       
       
       <main>
-        <h1 className='text-red-500 text-2xl'>{pageTitle}</h1>
+        <h1 className='text-red-500  text-center mt-5 font-bold text-2xl'>{pageTitle}</h1>
         {children}
       </main>
     </div>

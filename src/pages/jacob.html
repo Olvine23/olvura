@@ -12,31 +12,17 @@
     <div id="example"></div>
     <script>
         //bubble sort 
-        function bubble(arr){
-            var i;
-            var j;
-            var len = arr.length
-            var isSorted = false;
-            for(i = 0; i<len; i++ ){
-                isSorted = false
-                for(j=0;j<len;j++){
-                    if(arr[j] > arr[j + 1]){
-                        var temp = arr[j];
-                        arr[j] = arr[j+ 1];
-                        arr[j+1] = temp;
-                        isSorted = true
+        function solution(A) {
+    // write your code in JavaScript (Node.js 8.9.4)
+            
+            const sorted_array = A.sort((a,b) => a - b);
+            sorted_array.forEach(item => console.log(item))
+            
+    
+    
+}
+solution([2,4,2,1,223,4])
 
-                    }
-                }
-                if(!isSorted){
-                    break;
-                }
-            }
-            console.log(arr)
-        }
-
-        var arr = [23,99,099,12,122,9202,8988,222,0];
-        bubble(arr);
     </script>
 </body>
 </html>
