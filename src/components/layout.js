@@ -4,7 +4,7 @@ import {Nav} from './Nav'
 import {Content} from './content'
 
 const Layout = ({pageTitle, children}) => {
-  const data = useStaticQuery(graphql`
+  const data = useStaticQuery( graphql`
 
   query{
     allDirectory {

@@ -69,7 +69,7 @@ export const Nav = ({pageTitle}) => {
                   to="/blog"
                   aria-label="Our product"
                   title="Our product"
-                  class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                  class="font-medium tracking-wide text-gray-100 transition-colors active:text-green-600 duration-200 hover:text-teal-accent-400"
                 >
                   Blog
                 </Link>

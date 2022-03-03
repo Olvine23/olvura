@@ -51,7 +51,7 @@ export const Content = () => {
           <div>
             <StaticImage
               className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-              src="../images/aurora.jpg"
+              src="../images/moon.jpg"
               alt=""
             />
           </div>
